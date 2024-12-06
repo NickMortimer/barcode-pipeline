@@ -6,7 +6,7 @@ from ifdo.models import ImageData
 from marimba.core.pipeline import BasePipeline
 
 
-class MyPipeline(BasePipeline):
+class BarCodePipeline(BasePipeline):
 
     @staticmethod
     def get_pipeline_config_schema() -> dict:
